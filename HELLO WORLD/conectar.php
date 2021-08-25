@@ -1,8 +1,8 @@
 <?php
-$server="sql48.hostinger.mx";
-$user="u131580576_blog";
-$pass="osking";
-$bd="u131580576_blog";
+$server="";
+$user="";
+$pass="";
+$bd="";
 $conexion=mysql_connect($server,$user,$pass);
 mysql_select_db($bd);
 
