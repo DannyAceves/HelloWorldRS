@@ -1,0 +1,60 @@
+body{
+    background:url(../img/Fo.jpg); /* Nuestra imagen de fondo */
+	background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+	font-family:helvetica, arial, sans-serif;
+	line-height:20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.texto{
+    text-align: center;
+    background-color: dimgrey;
+    font-size: 13px;
+    color: currentColor;
+}
+.header{
+	width: 102%;
+    height: 70px;    
+	overflow: hidden;
+	background-color:#252932;
+	margin-bottom: 20px;
+    margin-top: -10px;
+    margin-left: -8px;
+    border: 0 solid black;
+    
+}
+.wrapper{
+	width: 102%;
+	max-width: 900px;
+	margin: auto;
+	overflow: hidden;
+}
+.header .logo{
+	color: white;
+	font-size: 25px;
+	line-height: 50px;
+	float: left;
+}
+.header nav{
+	float: right;
+	line-height: 50px;
+}
+.header nav a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding:10px 20px;
+	line-height: normal;
+	font-size: 15px;
+	font-weight: bold; 
+	-webkit-transition: all 50ms ease;
+	-o-transition: all 50ms ease;
+	transition: all 50ms ease;
+}
+.header nav a:hover{
+	border-bottom:5px solid #f56f3a;
+}

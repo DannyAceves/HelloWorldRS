@@ -1,0 +1,130 @@
+body{
+	width: 100%;
+	background: #ccccc;
+	padding: 10% 0%;
+	text-align: center;
+}
+
+form{
+	width: 50%;
+	box-shadow: 0px 0px 2px black;
+	height: auto;
+	border-radius: 10px;
+	margin:0 auto;
+	padding: 20px;
+	background: rgba(255,255,255,.5);
+}
+header{
+	width: 30%;
+	box-shadow: 0px 0px 2px black;
+	height: auto;
+	border-radius: 10px;
+	margin:0 auto;
+	padding: 20px;
+	background: rgba(255,255,255,.5);
+}
+
+input [type="submit"]{
+width: 200px;
+height: auto;
+border-radius: 10px;
+}
+
+#ic{
+background-color: crimson;
+height: 50px;
+width: 200px;
+opacity: .9;
+border-radius: 20px;
+color: aliceblue;
+font-size:20px; 
+}
+#ic:active{
+background-color: crimson;
+box-sizing: .1;
+opacity: .8;
+border-radius: 10px;
+text-align: center;
+color:aliceblue;
+font-size: 15px; 
+}
+
+
+input [type="checkbox"]{
+width: 400px;
+height: auto;
+display:inline-block;
+
+	}
+input{
+	width: 250px;
+	height: 50px;
+}
+select{
+	width: 250px;
+	height: 50px;
+
+}
+p{
+	text-align: center;
+}
+a{
+	margin: 0 auto;
+	width: 200px;
+	text-align: center;
+	height: auto;
+	text-decoration: none;
+	color:white;
+	background-color: cadetblue;
+    padding: 10px;
+	border:2px solid;
+	border-radius: 20px;
+	box-sizing:border-box;
+	display:inline-block;
+}
+a:active{
+	margin: 0 auto;
+	width: 200px;
+	text-align: center;
+	height: auto;
+	text-decoration: none;
+	color:white;
+	background-color: cadetblue;
+	padding: 10px;
+    border:2px solid;
+	border-radius: 10px;
+	box-sizing:.1;
+	display:inline-block;
+    opacity: .8;
+}
+
+#R{
+	margin: 0 auto;
+	width: 200px;
+	text-align: center;
+	height: auto;
+	text-decoration: none;
+	color:white;
+	background-color: cadetblue;
+    padding: 10px;
+	border:2px solid;
+	border-radius: 20px;
+	box-sizing:border-box;
+	display:inline-block;
+}
+#R:active{
+	margin: 0 auto;
+	width: 200px;
+	text-align: center;
+	height: auto;
+	text-decoration: none;
+	color:white;
+	background-color: cadetblue;
+	padding: 10px;
+    border:2px solid;
+	border-radius: 10px;
+	box-sizing:.1;
+	display:inline-block;
+    opacity: .8;
+    
+}
